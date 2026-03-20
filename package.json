@@ -1,0 +1,19 @@
+{
+  "name": "arj-tech",
+  "version": "1.0.0",
+  "description": "ARJ Tech - Digital Products That Matter",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Development server would run here'",
+    "build": "echo 'Build complete'",
+    "preview": "echo 'Preview ready'"
+  },
+  "keywords": [
+    "arj-tech",
+    "nexus-ai",
+    "gym-manager",
+    "digital-products"
+  ],
+  "author": "ARJ Tech",
+  "license": "MIT"
+}
