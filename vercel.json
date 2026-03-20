@@ -1,6 +1,7 @@
 {
   "version": 2,
   "buildCommand": "echo 'Pre-built static site'",
+  "outputDirectory": "dist",
   "framework": null,
   "public": false,
   "rewrites": [
