@@ -1,25 +1,20 @@
 {
-  "name": "arj-tech",
+  "name": "arj-tech-render",
   "version": "1.0.0",
-  "description": "ARJ Tech - Digital Products That Matter",
+  "description": "ARJ Tech - Digital Products That Matter - Render.com Deployment",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "echo 'Development server would run here'",
-    "build": "echo 'Build complete - static files ready'",
-    "preview": "echo 'Preview mode - serve dist/ folder'",
-    "deploy": "vercel --prod"
+    "start": "echo 'Static site ready'",
+    "build": "echo 'Pre-built static site'",
+    "dev": "echo 'Development mode'"
   },
   "keywords": [
     "arj-tech",
     "nexus-ai",
     "gym-manager",
-    "digital-products",
-    "saas"
+    "render"
   ],
   "author": "ARJ Tech",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "license": "MIT"
 }

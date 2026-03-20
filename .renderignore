@@ -1,9 +1,11 @@
 .git
+.gitignore
+.env
+.env.local
 node_modules
 npm-debug.log
 yarn-error.log
-.env
-.env.local
+pnpm-debug.log
 .DS_Store
 Thumbs.db
 .vscode
@@ -13,4 +15,9 @@ Thumbs.db
 *~
 .cache
 coverage
+.nyc_output
 dist-old
+build-old
+*.backup
+src
+README.md

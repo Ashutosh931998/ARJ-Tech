@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: arj-tech
+    runtime: static
+    buildCommand: echo "Pre-built static site"
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+    routes:
+      - type: rewrite
+        source: /(.*)/.*
+        destination: /index.html
