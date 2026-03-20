@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "ARJ Tech - Digital Products That Matter",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "echo 'Development server would run here'",
-    "build": "echo 'Build complete'",
-    "preview": "echo 'Preview ready'"
+    "build": "echo 'Build complete - static files ready'",
+    "preview": "echo 'Preview mode - serve dist/ folder'",
+    "deploy": "vercel --prod"
   },
   "keywords": [
     "arj-tech",
     "nexus-ai",
     "gym-manager",
-    "digital-products"
+    "digital-products",
+    "saas"
   ],
   "author": "ARJ Tech",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
