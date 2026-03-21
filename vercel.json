@@ -1,56 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "echo 'Pre-built static site'",
-  "outputDirectory": "dist",
-  "framework": null,
-  "public": false,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        },
-        {
-          "key": "Content-Type",
-          "value": "application/octet-stream"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
-        }
-      ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/old-path",
-      "destination": "/",
-      "permanent": true
-    }
-  ]
+  "outputDirectory": ".",
+  "buildCommand": null,
+  "installCommand": null
 }
